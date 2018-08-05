@@ -1,0 +1,485 @@
+:root {
+	--red: #fd634e;
+	--green: #a2ca28;
+	--grey: #656e74;
+}
+header {
+	height: 100vh;
+	background: url("../img/happy.jpg") no-repeat center/cover fixed;
+	position: relative;
+	overflow: hidden;
+}
+nav {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	z-index: 99;
+}
+nav ul {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+nav img {
+	height: 47px;
+}
+nav li {
+		margin: 0 5px;
+}
+nav a {
+	color: white;
+	white-space: nowrap;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: normal 1.2em Arial;
+	padding: 0 0 10px 0;
+	display: none;
+}
+.over a {
+	display: block;
+}
+#mobinav {
+	font-size: 2em;
+	display: block;
+}
+#slogan {
+	font-family: Arial;
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 15vh;
+	left: 10%;
+}
+header h1 {
+	font-size: 2.8em;
+}
+header h1 span {
+	color: var(--green);
+}
+header p {
+	font-size: 1em;
+	text-align: right;
+	padding: 10px 50px;
+}
+header p span {
+	color: var(--red);
+}
+#fignya1 {
+	width: 102%;
+	height: 110px;
+	background: var(--red);
+	position: absolute;
+	bottom: -50px;
+	opacity: 0.3;
+	transform: rotate(-2deg);
+}
+#one {
+	background: var(--green);
+}
+#two {
+	
+	background: var(--red);
+}
+#one1 {
+	padding: 110px 0;
+}
+#one1, #one2, #one3, #two1, #two2, #two3, #two4, #last {
+	display: flex;
+	flex-wrap: wrap;
+}
+.girltext {
+	background: white;
+	text-align: center;
+	padding: 50px;
+	order: 2;
+}
+.girltext h3 {
+	color: var(--red);
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.girltext h1 {
+	color: var(--green);
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.girltext i {
+	display: inline-block;
+	padding: 25px 0;
+	color: #e3e9ea;
+}
+.girltext p {
+	color: var(--grey);
+	padding-bottom: 15px;
+	line-height: 1.5;
+}
+.girltext a {
+	color: var(--green);
+}
+.girl {
+	background: url("../img/girl.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 40vh;
+}
+.boy {
+	background: url("../img/pic3.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 40vh;
+}
+.runner {
+	background: url("../img/pic2.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 40vh;
+}
+.watch {
+	background: url("../img/watch.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 40vh;
+}
+.container {
+	max-width: 1180px;
+	margin: auto;
+	position: relative;
+}
+.redactor {
+	width: 100%;
+	padding: 20px;
+}
+.redactor h1 {
+	font: normal 1.4em Arial;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.redactor p {
+	font: normal 0.9em Arial;
+	color: white;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+.redactor a {
+	font: normal 0.8em Arial;
+	color: white;
+	text-decoration: none;
+}
+.redactor i {
+	font-size: 2.5em;
+	color: white;
+}
+
+.boytext {
+	background: white;
+	text-align: center;
+	padding: 50px;
+	order: 2;
+}
+.boytext h3 {
+	color: var(--red);
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.boytext h1 {
+	color: var(--green);
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.boytext p {
+	color: var(--grey);
+	padding-bottom: 15px;
+	line-height: 1.5;
+}
+.boytext1 {
+	background: var(--green);
+	text-align: center;
+	padding: 50px;
+	order: 2;
+}
+.boytext1 h1 {
+	color: white;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.boytext1 p {
+	color: white;
+	padding: 30px 0 15px 0;
+	line-height: 1.5;
+	text-align: left;
+}
+#grape {
+	background: url("../img/pic4.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 40vh;
+}
+#coco {
+	background: url("../img/pic5.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 40vh;
+}
+.lasttext {
+	background: white;
+	text-align: center;
+	padding: 50px;
+	height: 40vh;
+}
+.lasttext h3 {
+	color: var(--red);
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.lasttext h1 {
+	color: var(--green);
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.lasttext p {
+	color: var(--grey);
+	
+	line-height: 1.5;
+}
+.lasttext1 {
+	background: var(--green);
+	text-align: center;
+	padding: 30px;
+	order: 2;
+}
+.lasttext1 h1 {
+	color: white;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.lasttext1 h5 {
+	padding: 20px;
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.lasttext1 p {
+	color: white;
+	padding: 30px 0 15px 0;
+	line-height: 1.5;
+	text-align: left;
+}
+#prelast {
+	height: 80vh;
+	background: url("../img/pic1.jpg") no-repeat center/cover fixed;
+	margin: 0;
+	text-align: center;
+}
+#prelast h1 {
+	color: white;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding: 50px;
+	font-family: FELIX-TITLING;
+}
+#prelast p {
+	color: white;
+	padding: 30px 0 15px 0;
+	line-height: 1.5;
+	text-align: center;
+	font-size: 20px;
+}
+footer {
+	height: 500px;
+	background: #0d1119;
+}
+.last1 {
+	width: 100%;
+	padding: 20px;
+}
+.last1 h4 {
+	font: normal 1.4em Arial;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.last1 p {
+	font: normal 0.9em Arial;
+	color: white;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+#icons {
+	display: flex;
+	justify-content: left;
+}
+#icons a {
+	padding: 5px;
+}
+#fb {
+	background: url("../img/fb.png") no-repeat center/cover;
+	width: 55px;
+	height: 55px;
+}
+#tw {
+	background: url("../img/tw.png") no-repeat center/cover;
+	width: 50px;
+	height: 50px;
+}
+#yt {
+	background: url("../img/yt.png") no-repeat center/cover;
+	width: 50px;
+	height: 50px;
+}
+#in {
+	background: url("../img/li.png") no-repeat center/cover;
+	width: 50px;
+	height: 50px;
+	
+}
+#input {
+	
+	padding: 20px;
+	background: yellow;
+	
+}
+#fname {
+	height: 5vh;
+	padding: 20px;
+	border-radius: 5%;
+	margin: 10px;
+}
+#email {
+	height: 5vh;
+	padding: 20px;
+	border-radius: 5%;
+	margin: 10px;
+}
+#submit {
+	height: 5vh;
+	padding: 10px 120px 10px 40px;
+	border-radius: 5%;
+	background-color: var(--green);
+	margin: 10px;
+}
+#love {
+	color: red;
+}
+#copy {
+	color: white;
+	padding: 40px;
+	font: normal 20px Arial;
+	text-align: left;
+	
+}
+
+@media only screen and (min-width: 600px) {
+	nav ul {
+		flex-direction: row;
+		text-align: left;
+	}
+	nav a {
+		display: block;
+		font-size: 1em;
+	}
+	#mobinav { display: none; }
+	.redactor { width: 50%; }
+	.last1 { display: 33.33%; } 
+	.girltext {
+		width: 40%;
+		order: 0;
+	}
+	.girltext {
+		width: 60%;
+		order: 0;
+	}
+	.girl {
+		width: 60%;
+		height: auto;	
+	}
+	.watch {
+		width: 60%;
+		height: auto;	
+	}
+	.boy {
+		width: 60%;
+		height: 40vh;
+	}
+	.runner {
+		width: 40%;
+		height: 40vh;
+	}
+	.lasttext {
+		width: 60%;
+		height: 40vh;
+	}
+	.lasttext1 {
+		width: 40%;
+		height: 40vh;
+	}
+	#grape {
+		width: 60%;
+		height: 40vh;
+	}
+	#coco {
+		width: 40%;
+		height: 40vh;
+	}
+	#one3 .girltext {
+		order: 2;
+	}
+	.boytext {
+		width: 40%;
+		order: 0;
+	}
+	.boytext1 {
+		width: 60%;
+		order: 0;
+	}
+}
+@media only screen and (min-width: 850px) {
+	nav { padding: 40px 50px; }
+	nav ul { padding-top: 20px;	}
+	nav li { margin: 0 15px; }
+	nav a { font-size: 1.2em; }
+	.redactor { width: 25%;	}
+	.last1 { width: 33.33%; } 	
+	.girltext {
+		width: 30%;
+	}
+	.boytext {
+		width: 30%;
+		order: 0;
+	}
+	.boytext1 {
+		width: 70%;
+		order: 0;
+	}
+	.girl {
+		width: 70%;
+	}
+	.boy {
+		width: 70%;
+		height: 40vh;
+	}
+	.runner {
+		width: 30%;
+		height: 40vh;
+	}
+	.watch {
+		width: 70%;
+	}
+	#grape {
+		width: 70%;
+		height: 40vh;
+	}
+	#coco {
+		width: 30%;
+		height: 40vh;
+	}
+	.lasttext {
+		width: 70%;
+		height: 40vh;
+	}
+	.lasttext1 {
+		width: 30%;
+		height: 40vh;
+	}
+}
+
+
+
+
+
